@@ -1,7 +1,16 @@
 {
+  "name":"newproject2",
+  "version":"1.0.0",
+  "description":"",
+  "main":"index.js",
   "scripts": {
-    "start": "vite"
+    "build-css":"tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "start":"vite"
+    
   },
+  "keywords":[],
+  "author":"",
+  "licence":"ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
